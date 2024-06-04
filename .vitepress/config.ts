@@ -26,12 +26,7 @@ export default defineConfig({
 
   markdown: {
     codeTransformers: [
-      transformerTwoslash({
-        twoslashOptions: {
-          compilerOptions: {
-          }
-        }
-      }),
+      transformerTwoslash(),
     ],
   },
 })
