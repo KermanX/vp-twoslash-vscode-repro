@@ -3,6 +3,7 @@
 ```ts twoslash
 import type { ExtensionContext } from 'vscode'
 import { StatusBarAlignment, commands, window } from 'vscode'
+//                             ^?
 
 export function activate(extensionContext: ExtensionContext) {
   let counter = 0
